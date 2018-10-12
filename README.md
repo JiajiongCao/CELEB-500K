@@ -1,7 +1,7 @@
 # CELEB-500K
 official github for paper "CELEB-500K: A LARGE TRAINING DATASET FOR FACE RECOGNITION"
 # Image urls
-link:https://pan.baidu.com/s/1TGwEpQXVXEgVLLX7G8Y8Ww  password:zcc5
+link: https://pan.baidu.com/s/1FTasU-aHzEhkkqA2aI4K-g password: tqmn    
 # Usage
 Download image urls from the link above and run DownloadImages.py to download images.  
 Then, face detection and alignment should be applied according to your own interest.  
