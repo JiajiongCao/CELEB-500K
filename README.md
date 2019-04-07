@@ -2,7 +2,7 @@
 official github for paper "CELEB-500K: A LARGE TRAINING DATASET FOR FACE RECOGNITION"    
 
 # Image urls
-link: https://pan.baidu.com/s/1FTasU-aHzEhkkqA2aI4K-g password: tqmn   
+link: https://pan.baidu.com/s/1Cc0InuxCoWA480r1pCNYug password: hseu   
     
     
 # Usage
