@@ -1,6 +1,7 @@
 import os
 import multiprocessing
 
+
 def ExtractUrls(txt):
     pos1=0
     pos2=-6
@@ -17,8 +18,12 @@ def ExtractUrls(txt):
         pos2 = line.index("\"ow\"")
         urls.append(line[pos1+6:pos2-2])
     return urls
+
+
 def Download(name, url):
     os.system('wget -O %s -T 10 -t 3 %s' % (name, url))
+
+
 def MultiRunWrapper(args):
     return Download(*args) 
 
