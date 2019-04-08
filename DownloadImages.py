@@ -20,7 +20,7 @@ def ExtractUrls(txt):
 def Download(name, url):
     os.system('wget -O %s -T 10 -t 3 %s' % (name, url))
 def MultiRunWrapper(args):
-    return Download(*args) 
+    return Download(*args)
 
 if __name__ == '__main__':
     rootDir = 'urls-30w-357488/'
