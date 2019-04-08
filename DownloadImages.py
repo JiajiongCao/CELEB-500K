@@ -2,13 +2,13 @@ import os
 import multiprocessing
 
 def ExtractUrls(txt):
-    pos1=0
-    pos2=-6
+    pos1 = 0
+    pos2 = -6
     data = open(txt, 'rb')
     for line in data:
         line = line.decode('utf-8')
     urls = []
-    while(pos1 != -1 and line!=[]):
+    while(pos1 != -1 and line != []):
         line = line[pos2+6:]
         try:
             pos1 = line.index("\"ou\"")
@@ -27,8 +27,8 @@ if __name__ == '__main__':
     saveDir = 'imgs-30w-357488/'
     url_files = os.listdir(rootDir)
     print(len(url_files))
-    countExist=0
-    countNotDownload=0
+    countExist = 0
+    countNotDownload = 0
     for name in url_files:
         folder_path = os.path.join(saveDir, name[:-6])
         cnt = int(name[-5])*100
